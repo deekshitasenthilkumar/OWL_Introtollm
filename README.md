@@ -220,19 +220,12 @@ python main.py \
 
 ## Key Findings
 
-Key Findings
-Reproduction successful — our PPL of 24.29 matches the paper's 24.55 within 0.26 points.
-
-OWL vs uniform Wanda — OWL reduces PPL from 82.42 to 24.29 at 70% sparsity on LLaMA-7B, a dramatic improvement.
-
-M=5 is optimal — PPL degrades sharply for M > 5, confirming the paper's choice.
-
-λ threshold effect — λ < 0.08 causes significant degradation; λ ≥ 0.08 all perform similarly (~24.1–24.3).
-
-80% sparsity limits — even OWL cannot recover model quality at 80% unstructured sparsity on LLaMA-7B.
-
-Model Scale matters (Extension) — Dynamic layer-wise pruning catastrophically backfires on compact architectures. OWL performs significantly worse than uniform pruning on the 3B model, proving that uniform pruning remains the optimal strategy for models under 7B parameters.
----
+* **Reproduction successful** - our PPL of 24.29 matches the paper's 24.55 within 0.26 points.
+* **OWL vs uniform Wanda** - OWL reduces PPL from 82.42 to 24.29 at 70% sparsity on LLaMA-7B, a dramatic improvement.
+* **M=5 is optimal** - PPL degrades sharply for M > 5, confirming the paper's choice.
+* **λ threshold effect** - λ < 0.08 causes significant degradation; λ ≥ 0.08 all perform similarly (~24.1-24.3).
+* **80% sparsity limits** - even OWL cannot recover model quality at 80% unstructured sparsity on LLaMA-7B.
+* **Model Scale matters (Extension)** - Dynamic layer-wise pruning catastrophically backfires on compact architectures. OWL performs significantly worse than uniform pruning on the 3B model, proving that uniform pruning remains the optimal strategy for models under 7B parameters.
 
 ## Argument Reference
 
