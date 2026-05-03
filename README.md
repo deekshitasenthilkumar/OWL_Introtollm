@@ -1,11 +1,5 @@
-# OWL_Introtollm
-Reproducibility: Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity
-
 # OWL: Outlier Weighed Layerwise Sparsity — Reproduction & Extension
-
-Reproduction and hyperparameter sensitivity analysis of the paper:
-**"OWL: A Consistent Estimation Framework for LLM Outlier Quantification"**
-on LLaMA-7B using WikiText-2 perplexity as the evaluation metric.
+Reproducibility: Outlier Weighed Layerwise Sparsity (OWL): A Missing Secret Sauce for Pruning LLMs to High Sparsity
 
 ---
 
