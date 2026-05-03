@@ -75,7 +75,7 @@ python main.py \
     --outlier_by_wmetric \
     --seed 0
 ```
-**Result: PPL = 24.29** ✅ (paper: 24.55, difference: -0.26)
+**Result: PPL = 24.29**  (paper: 24.55, difference: -0.26)
 
 ### Wanda baseline — 70% sparsity
 ```bash
